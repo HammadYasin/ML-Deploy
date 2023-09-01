@@ -102,7 +102,7 @@ function App()
     useEffect(() => {
         
     }, []);  
-    console.log(data)
+    // console.log(data)
     const myStyle={
         backgroundImage: `url(${background})`,
         height:700,

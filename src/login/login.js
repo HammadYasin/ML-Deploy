@@ -8,7 +8,7 @@ import Lottie from 'react-lottie';
 import login_ani from '../animations/login1.json';
 import {Routes, Route, useNavigate} from 'react-router-dom';
 
-function login() 
+function Login() 
 {
     const navigate = useNavigate();
     const [isDialogOpen, setDialogOpen] = useState(false);
@@ -149,4 +149,4 @@ function login()
     );
 }
  
-export default login;
+export default Login;

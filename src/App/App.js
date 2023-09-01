@@ -13,7 +13,7 @@ import "./App.css";
 export default function App() {
   const location = useLocation();
   const data = location.state;
-  console.log(data)
+  // console.log(data)
   useEffect(() => {
         
   }, [data]);

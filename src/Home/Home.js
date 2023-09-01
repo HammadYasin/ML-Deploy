@@ -13,7 +13,7 @@ function Home(){
     const navigate = useNavigate();
     const location = useLocation();
     const data = location.state;
-    console.log(data)
+    // console.log(data)
     const navigateDiabetes = () => {
       navigate('/diabetes',{replace:true});
     };

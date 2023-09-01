@@ -124,7 +124,7 @@ function Heart()
         }
     }
     const onPressData = async () => {
-        fetch("/heart", {
+        fetch("api//heart", {
             method: 'POST',
             headers: {
               Accept: 'application/json',
@@ -174,7 +174,7 @@ function Heart()
     useEffect(() => {
         
     }, []);  
-    console.log(data)
+    // console.log(data)
     const myStyle={
         backgroundImage: `url(${background})`,
         height:'auto',

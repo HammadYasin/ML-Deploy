@@ -10,7 +10,7 @@ import heart1 from '../animations/heart1.json';
 import diabetes_ani from '../animations/diabetes.json'
 import {Routes, Route, useNavigate} from 'react-router-dom';
 
-function diabetes() 
+function Diabetes() 
 {
     const navigate = useNavigate();
     const [data, setdata] = useState(null);
@@ -97,7 +97,7 @@ function diabetes()
         }
     }
     const onPressData = async () => {
-        fetch("/diabetes", {
+        fetch("api//diabetes", {
             method: 'POST',
             headers: {
               Accept: 'application/json',
@@ -137,7 +137,7 @@ function diabetes()
     useEffect(() => {
         
     }, []);  
-    console.log(data)
+    // console.log(data)
     const myStyle={
         backgroundImage: `url(${background})`,
         height:'auto',
@@ -347,4 +347,4 @@ function diabetes()
     );
 }
  
-export default diabetes;
+export default Diabetes;
